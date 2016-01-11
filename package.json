@@ -1,5 +1,5 @@
 {
-  "name": "angular2-exercise1",
+  "name": "angular2-boilerplate",
   "version": "1.0.0",
   "scripts": {
     "lite": "lite-server",
