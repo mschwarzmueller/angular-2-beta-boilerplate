@@ -39,7 +39,7 @@ gulp.task('build-ts', function () {
         .pipe(sourcemaps.init())
         .pipe(typescript(tsProject))
         .pipe(sourcemaps.write())
-        .pipe(jsuglify())
+        //.pipe(jsuglify())
         .pipe(gulp.dest(appProd));
 });
 
