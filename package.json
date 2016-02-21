@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "lite": "lite-server",
-    "start": "concurrent \"npm run lite\" "
+    "start": "npm run lite"
   },
   "license": "ISC",
   "dependencies": {
@@ -17,7 +17,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.2.1",
-    "concurrently": "^1.0.0",
     "cssnano": "^3.4.0",
     "gulp": "^3.9.0",
     "gulp-ext-replace": "^0.2.0",
