@@ -15,7 +15,9 @@
     "!./node_modules/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
   ],
   "files": [
     "./dev/app.component.ts",
