@@ -5,6 +5,7 @@ This repository acts as a very simple Angular 2 Beta Boilerplate with which you 
 It is derived from the official Angular 2 Documentation which can be found [here](https://angular.io/docs/ts/latest/quickstart.html).
 ## Usage
 Follow the following steps and you're good to go! Important: Typescript and npm has to be installed on your machine!
+
 1: Clone repo
 ```
 git clone https://github.com/mschwarzmueller/angular-2-beta-boilerplate.git
@@ -13,11 +14,7 @@ git clone https://github.com/mschwarzmueller/angular-2-beta-boilerplate.git
 ```
 npm install
 ```
-3: Start server (includes auto refreshing)
+3: Start server (includes auto refreshing) and gulp watcher
 ```
 npm start
-```
-4: Start Gulp Watcher (compile TypeScript and (S)CSS)
-```
-gulp
 ```
