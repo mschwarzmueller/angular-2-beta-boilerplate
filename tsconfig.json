@@ -19,10 +19,6 @@
     "typings/main",
     "typings/main.d.ts"
   ],
-  "files": [
-    "./dev/app.component.ts",
-    "./dev/boot.ts"
-  ],
   "atom": {
     "rewriteTsconfig": true
   }
