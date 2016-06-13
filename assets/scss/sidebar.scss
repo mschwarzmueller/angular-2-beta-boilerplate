@@ -1,0 +1,61 @@
+:host {
+  float: left;
+  margin-top: 10px;
+  width: 25%;
+  padding: 10px;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+button {
+  font-size: 14px;
+  font-family: inherit;
+  background-color: #3498db;
+  box-shadow: 1px 1px 1px #95a5a6;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.profile {
+  position: relative;
+  background-color: #b9d5e8;
+  padding: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+
+  h4 {
+    margin: 0;
+    paddin: 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .delete {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+
+  .delete:hover {
+    color: red;
+  }
+}
+
+.profile:hover {
+  background-color: #3498db;
+}
