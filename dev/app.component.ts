@@ -5,7 +5,7 @@ import { Component } from 'angular2/core';
     template: `
 <header>
   <h1>Angular 2 Weather</h1>
-</header>`,
+</header>` ,
 })
 
 export class AppComponent {
