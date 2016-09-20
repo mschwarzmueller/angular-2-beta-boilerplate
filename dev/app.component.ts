@@ -5,7 +5,7 @@ import {Component} from 'angular2/core';
     template: `
         <h1>Angular 2 Boilerplate</h1>
         <p>Hello World!</p>
-    `,
+    `
 })
 export class AppComponent {
 
